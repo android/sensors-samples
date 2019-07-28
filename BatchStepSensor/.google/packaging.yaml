@@ -1,0 +1,20 @@
+
+# GOOGLE SAMPLE PACKAGING DATA
+#
+# This file is used by Google as part of our samples packaging process.
+# End users may safely ignore this file. It has no relevance to other systems.
+---
+status:       PUBLISHED
+technologies: [Android]
+categories:   [Sensors]
+languages:    [Java]
+solutions:    [Mobile]
+github:       android/sensors
+level:        ADVANCED
+icon:         screenshots/big_icon.png
+apiRefs:
+    - android:android.hardware.Sensor
+    - android:android.hardware.SensorEvent
+    - android:android.hardware.SensorEventListener
+    - android:android.hardware.SensorManager
+license: apache2
